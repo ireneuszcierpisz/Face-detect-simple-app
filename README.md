@@ -1,8 +1,8 @@
-## Packaging an Application using **openvino deployment tools**.
+## Packaging an Application using **Intel OpenVINO Toolkit**.
 
-### Creating a run time package using Intel OpenVINO toolkit:
+### Creating a run time package:
 
-   I used **Deployment Manager** present in **Intel OpenVINO** to create a runtime package from this application.
+   I used **Deployment Manager** present in **Intel OpenVINO** to create a runtime package from my application.
 
    To do this try the following:
    
