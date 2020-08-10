@@ -112,8 +112,11 @@
               g. Generate package with current selection [ default ]
               q. Cancel and exit
 
-   ``Please type a selection or press "Enter" g
-   [ 2020-08-01 08:02:16,509 ] INFO : Deployment archive is ready.You can find it here:
+   ``Please type a selection or press "Enter" g``
+   
+   You can see something like this:
+   
+   ``[ 2020-08-01 08:02:16,509 ] INFO : Deployment archive is ready.You can find it here:
            C:\Users\directory\where\the\runtime\package\was\send\openvino_deploy_package_with_my_app.zip``
   
   #### The application code, models and OpenVINO Toolkit are included in the package created by the deployment manager.
