@@ -1,4 +1,4 @@
-## Simple face detection application for packing testing using **openvino deployment tools**.
+## Packaging an Application using **openvino deployment tools**.
 
 ### Creating a run time package using Intel OpenVINO toolkit:
 
@@ -32,8 +32,8 @@
    run ``python deployment_manager.py``
    
    You will see the menu:
-   ``
-   Deployment Manager
+   
+   ``Deployment Manager
    Version 0.6
    --------------------------------------------------------------------------------
            1. [ ] Inference Engine Runtime for Intel(R) CPU
@@ -53,14 +53,14 @@
 
    Add or remove items by typing the number and hitting "Enter"
    Press "Enter" to continue.
-   --------------------------------------------------------------------------------
-   ``
+   --------------------------------------------------------------------------------``
+   
    than **select the target device on which you plan to deploy your model** 'by typing the number and hitting "Enter"'
    
    
    **Next menu**:
-   ``
-   Deployment Manager
+   
+   ``Deployment Manager
    Version 0.6
    --------------------------------------------------------------------------------
    Review the targets below that will be added into the deployment package.
@@ -82,16 +82,16 @@
            g. Generate package with current selection [ default ]
            q. Cancel and exit
    --------------------------------------------------------------------------------
-   Please type a selection or press "Enter"
-   ``
+   Please type a selection or press "Enter"``
+   
    Type 'u'+'Enter' to provide the **path to the directory which contains the model and application code**.
    Type 'o'+'Enter' to provide the **full path to the output directory**.
    Type 'g'+'Enter' to generate runtime package.
    
    
    You will see:
-   ``
-   Deployment Manager
+   
+   ``Deployment Manager
    Version 0.6
    --------------------------------------------------------------------------------
    Review the targets below that will be added into the deployment package.
@@ -115,8 +115,9 @@
    --------------------------------------------------------------------------------
    Please type a selection or press "Enter" g
    [ 2020-08-01 08:02:16,509 ] INFO : Deployment archive is ready.You can find it here:
-           C:\Users\directory\where\the\runtime\package\was\send\openvino_deploy_package_with_my_app.zip
-   ``
+           C:\Users\directory\where\the\runtime\package\was\send\openvino_deploy_package_with_my_app.zip``
+  
+  #### The application code, models and OpenVINO Toolkit are included in the package created by the deployment manager.
    
    
    
