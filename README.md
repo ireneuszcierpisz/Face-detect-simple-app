@@ -22,7 +22,7 @@
 
 ## Steps
 
-   Source the OpenVINO environment
+   **Source the OpenVINO environment**
    
    ``cd C:\Program Files (x86)\IntelSWTools\openvino\bin`` 
    
@@ -63,6 +63,7 @@
    than **select the target device on which you plan to deploy your model** 'by typing the number and hitting "Enter"'
    
    
+   
    **Next menu**:
    
    ``Deployment Manager``
@@ -86,8 +87,8 @@
 
    ``Please type a selection or press "Enter"``
    
-   Type 'u'+'Enter' to provide the **path to the directory which contains the model and application code**.
-   Type 'o'+'Enter' to provide the **full path to the output directory**.
+   Type 'u'+'Enter' to **provide the path to the directory which contains the model and application code**.
+   Type 'o'+'Enter' to **provide the full path to the output directory**.
    Type 'g'+'Enter' to generate runtime package.
    
    
